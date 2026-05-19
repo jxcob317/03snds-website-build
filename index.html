@@ -5,21 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Jacob Bouie — sound designer, re-recording mixer, and dialogue editor. Portfolio at 03snds.">
   <title>Jacob Bouie | 03snds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
 
-  <header class="site-header">
+  <header class="site-header" id="top">
     <nav class="site-nav" aria-label="Primary">
       <a class="site-logo" href="#hero">
-        <img src="" alt="03snds logo">
+        <span class="site-logo__bars" aria-hidden="true">
+          <img src="assets/svg/logo-bars.svg" alt="">
+        </span>
+        <span class="site-logo__text">
+          <strong>Jacob Bouie</strong>
+          <small>FOUNDER OF 03 SNDS</small>
+        </span>
       </a>
       <ul class="site-nav__links">
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
       </ul>
       <a class="btn btn-primary" href="#contact">Work With Me</a>
     </nav>
@@ -28,203 +37,251 @@
   <main id="main">
     <section id="hero" class="hero" aria-labelledby="hero-heading">
       <div class="hero__media">
-        <img src="" alt="Jacob Bouie — hero portrait or production still, full width">
+        <img src="" alt="Jacob Bouie recording on set with production crew">
       </div>
+      <div class="hero__overlay"></div>
       <div class="hero__content">
-        <h1 id="hero-heading">Jacob Bouie</h1>
-        <div class="roles-ticker-wrapper motion-safe" aria-label="Professional roles">
-          <div class="roles-ticker">
-            <ul class="roles-ticker__track">
-              <li>Sound Designer</li>
-              <li>Re-recording Mixer</li>
-              <li>Dialogue Editor</li>
-              <li>Field Recordist</li>
-              <li>Sound Effects Editor</li>
-              <li>Sound Supervising Editor</li>
-            </ul>
-            <ul class="roles-ticker__track" aria-hidden="true">
-              <li>Sound Designer</li>
-              <li>Re-recording Mixer</li>
-              <li>Dialogue Editor</li>
-              <li>Field Recordist</li>
-              <li>Sound Effects Editor</li>
-              <li>Sound Supervising Editor</li>
-            </ul>
-          </div>
-        </div>
+        <p class="hero__eyebrow">03snds</p>
+        <h1 id="hero-heading">HI, I&rsquo;M JACOB</h1>
+        <p class="hero__timecode" aria-label="Video timecode style decoration">01:00:00</p>
       </div>
     </section>
 
     <section id="mission" class="mission" aria-labelledby="mission-heading">
-      <h2 id="mission-heading" class="visually-hidden">Mission</h2>
-      <blockquote class="mission__quote">
-        <p>I connect and inspire the world by bringing stories to life through the power of sound</p>
-      </blockquote>
-    </section>
-
-    <section id="projects" class="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Recent Projects</h2>
-      <div class="projects-grid motion-safe">
-        <article class="project-card">
-          <img src="" alt="Project 01 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
-        <article class="project-card">
-          <img src="" alt="Project 02 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
-        <article class="project-card">
-          <img src="" alt="Project 03 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
-        <article class="project-card">
-          <img src="" alt="Project 04 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
-        <article class="project-card">
-          <img src="" alt="Project 05 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
-        <article class="project-card">
-          <img src="" alt="Project 06 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
-        <article class="project-card">
-          <img src="" alt="Project 07 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
-        <article class="project-card">
-          <img src="" alt="Project 08 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
-        <article class="project-card">
-          <img src="" alt="Project 09 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
-        <article class="project-card">
-          <img src="" alt="Project 10 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
-        <article class="project-card">
-          <img src="" alt="Project 11 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
-        <article class="project-card">
-          <img src="" alt="Project 12 — thumbnail or key art">
-          <h3>[Project title]</h3>
-          <p class="project-role">[Role on project]</p>
-          <a href="#">View project</a>
-        </article>
+      <div class="ticker ticker--top motion-safe" aria-hidden="true">
+        <div class="ticker__track">
+          <span>Sound Designer</span><span>&bull;</span><span>Re-recording Mixer</span><span>&bull;</span><span>Dialogue Editor</span><span>&bull;</span><span>Field Recordist</span><span>&bull;</span><span>Sound Effects Editor</span><span>&bull;</span><span>Sound Supervising Editor</span><span>&bull;</span>
+          <span>Sound Designer</span><span>&bull;</span><span>Re-recording Mixer</span><span>&bull;</span><span>Dialogue Editor</span><span>&bull;</span><span>Field Recordist</span><span>&bull;</span><span>Sound Effects Editor</span><span>&bull;</span><span>Sound Supervising Editor</span>
+        </div>
+      </div>
+      <div class="mission__inner">
+        <h2 id="mission-heading">What I Do</h2>
+        <blockquote class="mission__quote">
+          <p>I connect and inspire the world by bringing stories to life through the power of sound</p>
+          <img src="assets/svg/scribble-zigzag.svg" alt="" aria-hidden="true">
+        </blockquote>
+      </div>
+      <div class="ticker ticker--bottom motion-safe" aria-hidden="true">
+        <div class="ticker__track ticker__track--reverse">
+          <span>Sound Designer</span><span>&bull;</span><span>Re-recording Mixer</span><span>&bull;</span><span>Dialogue Editor</span><span>&bull;</span><span>Field Recordist</span><span>&bull;</span><span>Sound Effects Editor</span><span>&bull;</span><span>Sound Supervising Editor</span><span>&bull;</span>
+          <span>Sound Designer</span><span>&bull;</span><span>Re-recording Mixer</span><span>&bull;</span><span>Dialogue Editor</span><span>&bull;</span><span>Field Recordist</span><span>&bull;</span><span>Sound Effects Editor</span><span>&bull;</span><span>Sound Supervising Editor</span>
+        </div>
       </div>
     </section>
 
-    <section id="testimonials" class="testimonials" aria-labelledby="testimonials-heading">
-      <h2 id="testimonials-heading">Testimonials</h2>
-      <div class="testimonials-grid motion-safe">
-        <figure class="testimonial">
-          <blockquote>
-            <p>[Testimonial quote]</p>
-          </blockquote>
-          <figcaption>
-            <img src="" alt="[Name] — testimonial headshot">
-            <span>[Name], [Title]</span>
-          </figcaption>
-        </figure>
-        <figure class="testimonial">
-          <blockquote>
-            <p>[Testimonial quote]</p>
-          </blockquote>
-          <figcaption>
-            <img src="" alt="[Name] — testimonial headshot">
-            <span>[Name], [Title]</span>
-          </figcaption>
-        </figure>
-        <figure class="testimonial">
-          <blockquote>
-            <p>[Testimonial quote]</p>
-          </blockquote>
-          <figcaption>
-            <img src="" alt="[Name] — testimonial headshot">
-            <span>[Name], [Title]</span>
-          </figcaption>
-        </figure>
-        <figure class="testimonial">
-          <blockquote>
-            <p>[Testimonial quote]</p>
-          </blockquote>
-          <figcaption>
-            <img src="" alt="[Name] — testimonial headshot">
-            <span>[Name], [Title]</span>
-          </figcaption>
-        </figure>
-        <figure class="testimonial">
-          <blockquote>
-            <p>[Testimonial quote]</p>
-          </blockquote>
-          <figcaption>
-            <img src="" alt="[Name] — testimonial headshot">
-            <span>[Name], [Title]</span>
-          </figcaption>
-        </figure>
-        <figure class="testimonial">
-          <blockquote>
-            <p>[Testimonial quote]</p>
-          </blockquote>
-          <figcaption>
-            <img src="" alt="[Name] — testimonial headshot">
-            <span>[Name], [Title]</span>
-          </figcaption>
-        </figure>
+    <section class="sound-showcase" aria-labelledby="sound-showcase-heading">
+      <img class="sound-showcase__wave" src="assets/svg/wave-top.svg" alt="" aria-hidden="true">
+      <div class="sound-showcase__headings">
+        <h2 id="sound-showcase-heading"><span>Hey...Listen Up!</span><img src="assets/svg/scribble-underline.svg" alt="" aria-hidden="true"></h2>
+        <h3><span>Here&rsquo;s My Sound</span><img src="assets/svg/scribble-circle.svg" alt="" aria-hidden="true"></h3>
+      </div>
+      <div class="sound-showcase__grid">
+        <article class="media-card">
+          <img src="" alt="Advertising sound work video still">
+          <h4>Advertising Sound Work</h4>
+        </article>
+        <article class="media-card">
+          <img src="" alt="Film sound editorial video still">
+          <h4>Film Sound Editorial</h4>
+        </article>
+      </div>
+      <p class="sound-showcase__cta">Extended Portfolio Coming Soon...</p>
+    </section>
+
+    <section id="projects" class="projects section-light" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Recent Projects</h2>
+      <div class="carousel" data-carousel>
+        <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Previous projects">&larr;</button>
+        <div class="carousel__viewport" id="projects-carousel" tabindex="0">
+          <div class="carousel__track">
+            <article class="project-card">
+              <img src="" alt="Project 01 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+            <article class="project-card">
+              <img src="" alt="Project 02 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+            <article class="project-card">
+              <img src="" alt="Project 03 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+            <article class="project-card">
+              <img src="" alt="Project 04 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+            <article class="project-card">
+              <img src="" alt="Project 05 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+            <article class="project-card">
+              <img src="" alt="Project 06 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+            <article class="project-card">
+              <img src="" alt="Project 07 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+            <article class="project-card">
+              <img src="" alt="Project 08 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+            <article class="project-card">
+              <img src="" alt="Project 09 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+            <article class="project-card">
+              <img src="" alt="Project 10 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+            <article class="project-card">
+              <img src="" alt="Project 11 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+            <article class="project-card">
+              <img src="" alt="Project 12 poster art">
+              <h3>[Project title]</h3>
+              <p class="project-role">[Role on project]</p>
+              <a href="#">IMDb</a>
+            </article>
+          </div>
+        </div>
+        <button class="carousel__btn carousel__btn--next" type="button" aria-label="Next projects">&rarr;</button>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials section-light section-light--dim" aria-labelledby="testimonials-heading">
+      <h2 id="testimonials-heading">What People Say</h2>
+      <div class="carousel" data-carousel>
+        <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Previous testimonials">&larr;</button>
+        <div class="carousel__viewport" id="testimonials-carousel" tabindex="0">
+          <div class="carousel__track">
+            <figure class="testimonial-card">
+              <img src="" alt="[Name] testimonial headshot">
+              <blockquote><p>[Testimonial quote]</p></blockquote>
+              <figcaption>[Name]</figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <img src="" alt="[Name] testimonial headshot">
+              <blockquote><p>[Testimonial quote]</p></blockquote>
+              <figcaption>[Name]</figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <img src="" alt="[Name] testimonial headshot">
+              <blockquote><p>[Testimonial quote]</p></blockquote>
+              <figcaption>[Name]</figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <img src="" alt="[Name] testimonial headshot">
+              <blockquote><p>[Testimonial quote]</p></blockquote>
+              <figcaption>[Name]</figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <img src="" alt="[Name] testimonial headshot">
+              <blockquote><p>[Testimonial quote]</p></blockquote>
+              <figcaption>[Name]</figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <img src="" alt="[Name] testimonial headshot">
+              <blockquote><p>[Testimonial quote]</p></blockquote>
+              <figcaption>[Name]</figcaption>
+            </figure>
+          </div>
+        </div>
+        <button class="carousel__btn carousel__btn--next" type="button" aria-label="Next testimonials">&rarr;</button>
       </div>
     </section>
 
     <section id="about" class="about" aria-labelledby="about-heading">
-      <h2 id="about-heading">About</h2>
-      <p class="about__bio">[Bio paragraph — add your story here]</p>
-      <div class="certifications motion-safe" aria-label="Certifications">
-        <img src="" alt="Avid Pro Tools Certified badge">
-        <img src="" alt="Dolby Atmos certification badge">
-        <img src="" alt="iZotope RX certification badge">
-        <img src="" alt="[Certification name] badge">
+      <div class="about__copy">
+        <h2 id="about-heading"><span>Shaping Soundscapes</span><br><span>For Your Vision</span><img src="assets/svg/scribble-underline.svg" alt="" aria-hidden="true"></h2>
+        <p class="about__intro">Hey!</p>
+        <p class="about__bio">My name is Jacob Bouie. I am a hobbyist, sound nerd, fitness fanatic, workflow optimizer, composer, and retired fencer. As a SCAD alumni with professional sound design experience, I am always finding new ways to create an auditory narrative. I am an adaptable and unique sound designer and re-recording mixer with years of experience in all fields regarding post and production sound. Working on live action films, advertisement, games, and animations makes me confident to tackle any task that comes my way.</p>
+        <a class="btn btn-accent" href="#">My Resume</a>
+        <div class="certifications motion-safe" aria-label="Certifications">
+          <img src="" alt="Dante Level 3 professional certification badge">
+          <img src="" alt="Certification badge logo">
+          <img src="" alt="Cinema sound society certification badge">
+          <img src="" alt="Avid Pro Tools certification badge">
+          <img src="" alt="Dolby Atmos certification badge">
+        </div>
+      </div>
+      <div class="about__media">
+        <img src="" alt="Jacob Bouie in studio portrait">
       </div>
     </section>
 
     <section id="contact" class="contact" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Contact</h2>
-      <p class="contact__email">
-        <a href="mailto:[your@email.com]">[your@email.com]</a>
-      </p>
-      <p class="contact__phone">
-        <a href="tel:+1XXXXXXXXXX">[(XXX) XXX-XXXX]</a>
-      </p>
+      <div class="contact__form-col">
+        <h2 id="contact-heading">Work With Me</h2>
+        <form class="contact-form">
+          <div class="contact-form__row">
+            <label>First Name (required)
+              <input type="text" name="firstName" required>
+            </label>
+            <label>Last Name (required)
+              <input type="text" name="lastName" required>
+            </label>
+          </div>
+          <label>Email (required)
+            <input type="email" name="email" required>
+          </label>
+          <label>Project Type (required)
+            <input type="text" name="projectType" placeholder="Feature, Short, Animation, Game" required>
+          </label>
+          <label>What sounds do you need? (required)
+            <select name="soundNeed" required>
+              <option value="">Select an option</option>
+              <option>Dialogue Editing</option>
+              <option>Sound Design</option>
+              <option>Re-recording Mix</option>
+              <option>Field Recording</option>
+            </select>
+          </label>
+          <label>Tell me about your project (required)
+            <textarea name="message" rows="5" placeholder="What's the story you want to tell?" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+      </div>
+      <div class="contact__image-col">
+        <img src="" alt="Jacob Bouie in mixing studio environment">
+      </div>
     </section>
+
+    <div class="ticker ticker--footer motion-safe" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Sound Designer</span><span>&bull;</span><span>Re-recording Mixer</span><span>&bull;</span><span>Dialogue Editor</span><span>&bull;</span><span>Field Recordist</span><span>&bull;</span><span>Sound Effects Editor</span><span>&bull;</span><span>Sound Supervising Editor</span><span>&bull;</span>
+        <span>Sound Designer</span><span>&bull;</span><span>Re-recording Mixer</span><span>&bull;</span><span>Dialogue Editor</span><span>&bull;</span><span>Field Recordist</span><span>&bull;</span><span>Sound Effects Editor</span><span>&bull;</span><span>Sound Supervising Editor</span>
+      </div>
+    </div>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; 2026 Jacob Bouie</p>
-    <a href="#hero">Back to top</a>
+    <p>Email: <a href="mailto:[your@email.com]">[your@email.com]</a></p>
+    <p>Phone: <a href="tel:+14048256300">(404) 825-6300</a></p>
   </footer>
 
   <script src="js/main.js" defer></script>

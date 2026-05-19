@@ -1,0 +1,13 @@
+# Keep these out of the uploaded static asset bundle (project root is the asset dir)
+.git/
+node_modules/
+src/
+wrangler.jsonc
+package.json
+package-lock.json
+README.md
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.wrangler/
